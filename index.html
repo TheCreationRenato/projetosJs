@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <script src="./assets/js/script.js"></script>
+    <title>exercicio de calculadora</title>
+</head>
+<body onload="resetar()">
+    <div class="transparencia">
+        <div class="container_calculadora">
+            <div class="area_calculadora">
+                <div class="tit_area_calc"><h3>Acerte o resultado</h3></div>
+                <div class="calc">
+                    <div id="num1">0</div>
+                    <div class="icones_mat">+</div>
+                    <div id="num2">10</div>
+                    <div class="icones_mat">=</div>
+                    <input type="text" id="resultado">
+                    <div style="clear:both"></div>
+                    
+                </div>
+                <div class="botão">
+                    <button id="button"  onclick="somar()" >Verificar</button>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    
+</body>
+</html>
